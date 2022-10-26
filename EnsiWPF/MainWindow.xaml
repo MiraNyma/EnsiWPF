@@ -1,0 +1,22 @@
+﻿<Window x:Class="EnsiWPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:EnsiWPF"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TextBox x:Name="Eka" Width="100" Height="100" MaxLength="100" TextAlignment="Left" HorizontalAlignment="Left" VerticalAlignment="Center" />
+        <TextBox x:Name="Toka" Width="100" Height="100" MaxLength="100" HorizontalAlignment="Center" TextAlignment="Left" VerticalAlignment="Center" />
+        <Button Name="btn1" Background="PaleGreen" 
+        Height="100" Width="100" HorizontalAlignment="Right"
+        BorderBrush="Black" BorderThickness="1" 
+          Click="Yhdista" >
+            Yhdistä sanat
+        </Button>
+        <Label x:Name="Hei" Content="hei" HorizontalAlignment="Left" Margin="317,287,0,0" VerticalAlignment="Top"/>
+
+    </Grid>
+    
+</Window>
